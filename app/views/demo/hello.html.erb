@@ -1,0 +1,18 @@
+<h1>Hello World! from Hello!!!</h1>
+
+<!-- we write ruby codes in erb tags-->
+<!--
+<% 3.times do |n| %>
+<%= n %> <br/>
+<% end %>
+
+--> 
+<% @array.each do |n| %>
+<%= n %> <br/>
+<% end %>
+
+<br/>
+
+ID : <%= @id %> <br/>
+page : <%= @page %> <br/>
+Next page : <%= @page.to_i + 1 %> <br/>

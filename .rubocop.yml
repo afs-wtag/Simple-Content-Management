@@ -1,0 +1,11 @@
+#inherit_from: .rubocop_todo.yml
+
+inherit_from:
+  - https://raw.githubusercontent.com/wtag/default-configs/master/rubocop-default-config.yml
+  
+
+AllCops:
+  NewCops: enable
+  TargetRubyVersion: 3.0
+
+
